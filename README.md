@@ -107,11 +107,15 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. **Run the Blockchain**
+4. **Run the Blockchain nodes at least 4**
 ```bash
-python Main.py
+python Main.py <port>
 ```
 
+5. **Run the Interactions**
+```bash
+python Interaction.py 
+```
 ---
 
 ## **6. How the Code Works**
@@ -145,5 +149,5 @@ This project is licensed under the **MIT License**.
 
 ---
 
-This **README** provides a **structured and comprehensive** guide to your **Master's Thesis implementation**. Let me know if you'd like **any modifications or additional details!** 🚀
+
 
